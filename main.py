@@ -58,8 +58,8 @@ class StraightLine:
 
     def output(self,dis, ref_x_x_axis, ref_y_y_axis, quad, equa_straight):
         print("Umgama ophakathi kweOrijini nendawo efakwe ngumntu ngu", dis)
-        print("Uguqulelo lwendawo efakwe ngumntu kwiiAsi zika X ngu ",self.name, "(", ref_x_x_axis, ",", self.y, ")")
-        print("Uguqulelo lwendawo efakwe ngumntu kwiiAsi zikaY ngu ",self.name, "(", self.x, ",", ref_y_y_axis, ")")
+        print("Uguqulelo lwendawo efakwe ngumntu kwiiAsi zika Y ngu ",self.name, "(", ref_x_x_axis, ",", self.y, ")")
+        print("Uguqulelo lwendawo efakwe ngumntu kwiiAsi zikaX ngu ",self.name, "(", self.x, ",", ref_y_y_axis, ")")
         print("Lendawo ifakwe ngumntu ise " + quad)
         print("IEquation yomgca ongqalileyo ngu  " + equa_straight)
 
